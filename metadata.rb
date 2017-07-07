@@ -10,4 +10,4 @@ issues_url 'https://github.com/learn-chef/wisa/issues' if respond_to?(:issues_ur
 source_url 'https://github.com/learn-chef/wisa' if respond_to?(:source_url)
 supports 'windows'
 
-depends 'sql_server', '~> 5.3.1'
+depends 'sql_server', '~> 5.3'

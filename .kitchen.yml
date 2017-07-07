@@ -28,4 +28,4 @@ suites:
         - test/smoke/default
     attributes:
       sql_server:
-        sysadmins: ['Administrator', 'vagrant']
+        server_sa_password: SQL_sa_pa$$w0rd

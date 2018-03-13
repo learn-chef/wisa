@@ -25,7 +25,7 @@ suites:
       - recipe[wisa::default]
     verifier:
       inspec_tests:
-        - test/smoke/default
+        - test/integration/default
     attributes:
       sql_server:
         server_sa_password: SQL_sa_pa$$w0rd
